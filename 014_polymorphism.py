@@ -17,7 +17,7 @@ class Boat:
 
 
 car1 = Car("Ford", "Mustang")
-boat1 = Boat("Ibiza", "Touring 20")
+boat1 = Boat("Ibiza", "Touring 27")
 
 for i in [car1, boat1]:
     i.move()
