@@ -16,7 +16,7 @@ class Boat:
         print("Sail!")
 
 
-car1 = Car("Ford", "Mustang")
+car1 = Car("Ford", "Land Rover")
 boat1 = Boat("Ibiza", "Touring 27")
 
 for i in [car1, boat1]:
