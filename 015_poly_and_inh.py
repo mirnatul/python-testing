@@ -21,3 +21,9 @@ boat1 = Boat("Ibiza", "Touring 27")
 
 for i in [car1, boat1]:
     i.move()
+
+import platform
+
+print(dir(platform))
+
+from my_module import person1
