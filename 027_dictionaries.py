@@ -26,3 +26,15 @@ for key, value in my_dict.items():
 # print(my_dict)
 
 # del my_dict
+
+keys = ["a", "b", "c"]
+new_dict = dict.fromkeys(keys, 0)
+print(new_dict)  # {'a': 0, 'b': 0, 'c': 0}
+
+item = my_dict.popitem()
+
+
+my_dict = {"a": 1}
+value = my_dict.setdefault("b", 100)
+print(value)  # 100
+print(my_dict)  # {'a': 1, 'b': 100}
